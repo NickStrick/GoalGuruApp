@@ -1,0 +1,21 @@
+
+type Goal @model
+  @auth(rules: [
+    { allow: owner },
+    { allow: public, operations: [create, read, update, delete] }
+  ]) {
+  id: ID!
+  title: String!
+  completed: Boolean!
+  date: AWSDate!
+}
+
+type Stats @model
+  @auth(rules: [
+    { allow: owner },
+    { allow: public, operations: [create, read, update, delete] }
+  ]) {
+  id: ID!
+  goalId: ID!
+  completedOn: AWSDate!
+}

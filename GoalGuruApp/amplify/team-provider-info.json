@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-goalguruapp-dev-d0960-authRole",
+      "UnauthRoleArn": "arn:aws:iam::213944668545:role/amplify-goalguruapp-dev-d0960-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::213944668545:role/amplify-goalguruapp-dev-d0960-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-goalguruapp-dev-d0960-deployment",
+      "UnauthRoleName": "amplify-goalguruapp-dev-d0960-unauthRole",
+      "StackName": "amplify-goalguruapp-dev-d0960",
+      "StackId": "arn:aws:cloudformation:us-east-1:213944668545:stack/amplify-goalguruapp-dev-d0960/3e83e1e0-165f-11f0-bb8e-0affff219cc7",
+      "AmplifyAppId": "d5c5j83k5vaof"
+    },
+    "categories": {
+      "auth": {
+        "goalguruappd4c51d80": {}
+      },
+      "api": {
+        "goalguruapp": {}
+      },
+      "storage": {
+        "s348dadb53": {}
+      }
+    }
+  }
+}

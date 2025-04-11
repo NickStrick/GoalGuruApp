@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "goalguruapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2025-04-11T00:14:41.253Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authgoalguruappd4c51d80",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "resourceName": "s348dadb53",
+  "policyUUID": "48dadb53",
+  "bucketName": "goalguruapp42fa42e5524e4fcc80bb98578f0613db",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
